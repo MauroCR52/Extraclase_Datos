@@ -65,6 +65,7 @@ public class Tabla implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         carne.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("carne"));
         nombre.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("nombre"));
         correo.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("correo"));
