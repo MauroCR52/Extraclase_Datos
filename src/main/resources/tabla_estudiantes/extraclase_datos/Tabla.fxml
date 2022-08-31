@@ -4,10 +4,9 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tabla_estudiantes.extraclase_datos.Tabla">
    <children>
-      <TableView layoutY="71.0" prefHeight="200.0" prefWidth="1124.0">
+      <TableView fx:id="tabla" layoutY="71.0" prefHeight="200.0" prefWidth="1124.0">
         <columns>
             <TableColumn fx:id="carne" prefWidth="75.0" text="Carne" />
           <TableColumn fx:id="nombre" prefWidth="75.0" text="Nombre" />
