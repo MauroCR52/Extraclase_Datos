@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Tabla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tabla_estudiantes/extraclase_datos/Tabla.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tabla_estudiantes/extraclase_datos/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tabla_estudiantes/extraclase_datos/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E6m6LPHnZJJThtpJxMrltfcIax" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +41,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tabla_estudiantes.extraclase_datos.Main" />
+      <module name="Extraclase_Datos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tabla_estudiantes.extraclase_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,9 +77,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661924235123</updated>
-      <workItem from="1661924236411" duration="1000" />
+      <workItem from="1661924236411" duration="602000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
