@@ -72,14 +72,14 @@ public class Tabla implements Initializable {
         telefono.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("telefono"));
         nickname.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("nickname"));
         tipo.setCellValueFactory(new PropertyValueFactory<Estudiante, String>("tipo"));
-        prom_exam.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("prom_exam"));
-        prom_quiz.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("prom_quiz"));
-        prom_tarea.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("prom_tarea"));
+        prom_exam.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("promedio_exam"));
+        prom_quiz.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("promedio_quiz"));
+        prom_tarea.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("promedio_tarea"));
         proyecto_1.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("proyecto_1"));
         proyecto_2.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("proyecto_2"));
         proyecto_3.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("proyecto_3"));
-        prom_proyecto.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("prom_proyecto"));
-        prom_exam_quiz_tarea.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("prom_exam_quiz_tarea"));
+        prom_proyecto.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("promedio_proyecto"));
+        prom_exam_quiz_tarea.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("promedio_eqt"));
         nota_final.setCellValueFactory(new PropertyValueFactory<Estudiante, Integer>("nota_final"));
         tabla.setItems(lista);
     }

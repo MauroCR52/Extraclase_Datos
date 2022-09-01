@@ -21,14 +21,19 @@ public class LectorCSV {
             line = lector.readLine();
             while ((line = lector.readLine()) != null) {
                 String[] celda = line.split(delimitador, -1);
+                    Estudiante_A estudiante_a = new Estudiante_A(celda[0], celda[1], celda[2], celda[3], celda[4], celda[5], Integer.parseInt(celda[6]),
+                        Integer.parseInt(celda[7]), Integer.parseInt(celda[8]), Integer.parseInt(celda[9]), Integer.parseInt(celda[10]), Integer.parseInt(celda[11]), 1, 0);
+                    estudiante_a.setPromedio_eqt(estudiante_a.obtener_nota());
+                    Tabla.lista.add(estudiante_a);
 
-                Estudiante estudiante = new Estudiante(celda[0], celda[1], celda[2], celda[3], celda[4], celda[5], Integer.parseInt(celda[6]),
-                        Integer.parseInt(celda[7]), Integer.parseInt(celda[8]), Integer.parseInt(celda[9]), Integer.parseInt(celda[10]), Integer.parseInt(celda[11]));
-                Tabla.lista.add(estudiante);
+                Estudiante_B estudiante_b = new Estudiante_B(celda[0], celda[1], celda[2], celda[3], celda[4], celda[5], Integer.parseInt(celda[6]),
+                        Integer.parseInt(celda[7]), Integer.parseInt(celda[8]), Integer.parseInt(celda[9]), Integer.parseInt(celda[10]), Integer.parseInt(celda[11]), 1, 0);
+                estudiante_b.setPromedio_proyecto(estudiante_b.obtener_nota());
+                Tabla.lista.add(estudiante_b);
+
 
 
             }
-        System.out.println(Tabla.lista);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Estudiante.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

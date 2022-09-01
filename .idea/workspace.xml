@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="Agregar archivo csv con varios ejemplos de prueba">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/LectorCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/LectorCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Tabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Tabla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/maulu/OneDrive - Estudiantes ITCR/Clases TEC/Algoritmos 1/Extraclase_Datos/src/main/java/tabla_estudiantes/extraclase_datos",
+    "last_opened_file_path": "C:/Users/maulu/OneDrive - Estudiantes ITCR/Clases TEC/Algoritmos 1/Extraclase_Datos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +55,20 @@
       <recent name="C:\Users\maulu\OneDrive - Estudiantes ITCR\Clases TEC\Algoritmos 1\Extraclase_Datos\src\main\java\tabla_estudiantes\extraclase_datos" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tabla_estudiantes.extraclase_datos.HelloApplication" />
+      <module name="Extraclase_Datos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tabla_estudiantes.extraclase_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tabla_estudiantes.extraclase_datos.Main" />
       <module name="Extraclase_Datos" />
@@ -72,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +97,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661924235123</updated>
-      <workItem from="1661924236411" duration="2584000" />
+      <workItem from="1661924236411" duration="2863000" />
+      <workItem from="1662001413971" duration="698000" />
+      <workItem from="1662002270483" duration="1051000" />
+      <workItem from="1662003339683" duration="5842000" />
     </task>
     <task id="LOCAL-00001" summary="Implementacion del archivo fxml con scene builder y creacion de la clase main con sus métodos">
       <created>1661924970756</created>
@@ -106,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661926405281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes">
+      <created>1661927020890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661927020890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +151,17 @@
     <MESSAGE value="Implementacion del archivo fxml con scene builder y creacion de la clase main con sus métodos" />
     <MESSAGE value="Creacion de la clase que modifica los datos de la tabla, implementación de la lista que guarda las instancias de los estudiantes" />
     <MESSAGE value="Agregar archivo csv con varios ejemplos de prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar archivo csv con varios ejemplos de prueba" />
+    <MESSAGE value="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

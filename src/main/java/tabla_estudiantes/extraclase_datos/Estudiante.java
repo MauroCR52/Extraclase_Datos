@@ -1,6 +1,6 @@
 package tabla_estudiantes.extraclase_datos;
 
-public class Estudiante {
+public abstract class Estudiante {
     private String carne;
     private String nombre;
     private String correo;
@@ -14,8 +14,11 @@ public class Estudiante {
     private int proyecto_2;
     private int proyecto_3;
 
-    public Estudiante(String carne, String nombre, String correo, String telefono, String nickname, String tipo,
-                      int promedio_exam, int promedio_quiz, int promedio_tarea, int proyecto_1, int proyecto_2, int proyecto_3) {
+
+    private int nota_final;
+
+    public Estudiante(String carne, String nombre, String correo, String telefono, String nickname, String tipo, int promedio_exam, int promedio_quiz,
+                      int promedio_tarea, int proyecto_1, int proyecto_2, int proyecto_3, int nota_final) {
         this.carne = carne;
         this.nombre = nombre;
         this.correo = correo;
@@ -28,6 +31,8 @@ public class Estudiante {
         this.proyecto_1 = proyecto_1;
         this.proyecto_2 = proyecto_2;
         this.proyecto_3 = proyecto_3;
+        this.nota_final = nota_final;
+
     }
 
     public String getCarne() {
@@ -77,6 +82,13 @@ public class Estudiante {
     public int getProyecto_3() {
         return proyecto_3;
     }
+
+    public int getNota_final(){
+        return nota_final;
+    }
+
+
+    abstract double obtener_nota();
 
 
 
