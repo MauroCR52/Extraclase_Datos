@@ -28,4 +28,5 @@ public class Estudiante_B extends Estudiante {
         promedio_B = (getProyecto_1() + getProyecto_2() + getProyecto_3()) / 3;
         return promedio_B;
     }
+
 }

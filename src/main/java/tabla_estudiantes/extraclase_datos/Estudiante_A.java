@@ -11,8 +11,6 @@ public class Estudiante_A extends Estudiante {
         return promedio_eqt;
     }
 
-
-
     public Estudiante_A(String carne, String nombre, String correo, String telefono, String nickname, String tipo, int promedio_exam, int promedio_quiz,
                         int promedio_tarea, int proyecto_1, int proyecto_2, int proyecto_3, double promedio_eqt, int nota_final){
 
@@ -21,7 +19,6 @@ public class Estudiante_A extends Estudiante {
 
         this.promedio_eqt = promedio_eqt;
     }
-
     @Override
     public double obtener_nota() {
         double promedio_A;

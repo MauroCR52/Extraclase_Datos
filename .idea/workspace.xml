@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_B.java" afterDir="false" />
+    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="Convertir la clase Estudiante en una superclase y crear las subclases de Estudiante A y B para aplicar herencia">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Estudiante_B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/LectorCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/LectorCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Tabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tabla_estudiantes/extraclase_datos/Tabla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/maulu/OneDrive - Estudiantes ITCR/Clases TEC/Algoritmos 1/Extraclase_Datos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maulu/OneDrive - Estudiantes ITCR/Clases TEC/Algoritmos 1/Extraclase_Datos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maulu\OneDrive - Estudiantes ITCR\Clases TEC\Algoritmos 1\Extraclase_Datos\src\main\java\tabla_estudiantes\extraclase_datos" />
@@ -101,6 +101,9 @@
       <workItem from="1662001413971" duration="698000" />
       <workItem from="1662002270483" duration="1051000" />
       <workItem from="1662003339683" duration="5842000" />
+      <workItem from="1662009852408" duration="123000" />
+      <workItem from="1662040262294" duration="1193000" />
+      <workItem from="1662071671958" duration="2622000" />
     </task>
     <task id="LOCAL-00001" summary="Implementacion del archivo fxml con scene builder y creacion de la clase main con sus métodos">
       <created>1661924970756</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661927020890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Convertir la clase Estudiante en una superclase y crear las subclases de Estudiante A y B para aplicar herencia">
+      <created>1662009956043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662009956043</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +162,8 @@
     <MESSAGE value="Creacion de la clase que modifica los datos de la tabla, implementación de la lista que guarda las instancias de los estudiantes" />
     <MESSAGE value="Agregar archivo csv con varios ejemplos de prueba" />
     <MESSAGE value="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear clase que lee el archivo csv y que cree las instancias de los estudiantes" />
+    <MESSAGE value="Convertir la clase Estudiante en una superclase y crear las subclases de Estudiante A y B para aplicar herencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convertir la clase Estudiante en una superclase y crear las subclases de Estudiante A y B para aplicar herencia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
