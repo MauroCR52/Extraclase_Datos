@@ -11,6 +11,9 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Tabla contiene los atributos necesarios para la tabla y las columnas a mostrar por medio del archivo FXML
+ */
 public class Tabla implements Initializable {
 
     @FXML
@@ -61,8 +64,13 @@ public class Tabla implements Initializable {
     @FXML
     private TableColumn<Estudiante, String> tipo;
 
-    public static ObservableList<Estudiante> lista = FXCollections.observableArrayList();
+    public static ObservableList<Estudiante> lista = FXCollections.observableArrayList(); // Lista que contiene las instancias de los estudiantes
 
+    /**
+     * Método que agrega el valor de cada atributo de una instancia en su respectiva columna
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
