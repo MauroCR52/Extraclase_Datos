@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="Dejar 1 ejemplo de estudiante tipo A y uno de tipo B">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dcf72d0e-8ba5-4cd1-bcbf-4d333dab562e" name="Changes" comment="añadir documentación con javadoc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,7 @@
       <recent name="C:\Users\maulu\OneDrive - Estudiantes ITCR\Clases TEC\Algoritmos 1\Extraclase_Datos\src\main\java\tabla_estudiantes\extraclase_datos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.tabla_estudiantes.extraclase_datos.documentacion in Extraclase_Datos">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tabla_estudiantes.extraclase_datos.HelloApplication" />
       <module name="Extraclase_Datos" />
@@ -78,8 +75,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tabla_estudiantes.extraclase_datos.documentacion in Extraclase_Datos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraclase_Datos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tabla_estudiantes.extraclase_datos.documentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tabla_estudiantes.extraclase_datos.documentacion" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.tabla_estudiantes.extraclase_datos.documentacion in Extraclase_Datos" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HelloApplication" />
       </list>
@@ -99,7 +111,7 @@
       <workItem from="1662003339683" duration="5842000" />
       <workItem from="1662009852408" duration="123000" />
       <workItem from="1662040262294" duration="1193000" />
-      <workItem from="1662071671958" duration="11058000" />
+      <workItem from="1662071671958" duration="11183000" />
     </task>
     <task id="LOCAL-00001" summary="Implementacion del archivo fxml con scene builder y creacion de la clase main con sus métodos">
       <created>1661924970756</created>
@@ -164,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662082465487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="añadir documentación con javadoc">
+      <created>1662083495344</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662083495344</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +210,8 @@
     <MESSAGE value="Eliminar atributos y métodos innecesarios" />
     <MESSAGE value="Agregar comentarios" />
     <MESSAGE value="Dejar 1 ejemplo de estudiante tipo A y uno de tipo B" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dejar 1 ejemplo de estudiante tipo A y uno de tipo B" />
+    <MESSAGE value="añadir documentación con javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadir documentación con javadoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
